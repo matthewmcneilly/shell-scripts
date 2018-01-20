@@ -21,16 +21,27 @@ filename and limit are atributes
 Namespace is an object
 '''
 
-# Read in each line from bottom to top
-with open(args.filename) as f:
-    lines = f.readlines()
-    lines.reverse()
+try:
+    f = open(args.filename)
+# More than one expect can be used
+except IOError as err:
+    print("Error: file not found")
+else:
+    # Read in each line from bottom to top
+    with f:
+        limit = args.limit
+        lines = f.readlines()
+        lines.reverse()
 
-# If limit specified use it
-    if args.limit:
-        lines = lines[:args.limit]
-# Strip lines of whitepsace, reverse and print them
-    for line in lines:
-        print(line.strip()[::-1])
+        # If limit specified use it
+        if limit:
+            lines = lines[:args.limit]
 
+        # Strip lines of whitepsace, reverse and print them
+        for line in lines:
+            print(line.strip()[::-1])
+
+# Not really needed as else statement closes itself
+finally:
+    print("\nWe're finished\n")
 
