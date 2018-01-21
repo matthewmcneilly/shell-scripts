@@ -2,8 +2,12 @@ import random
 import os
 import json
 
-# Useful for creating file to use with other scripts
-# Creates receipts with a topic and value pair
+'''
+Useful for creating file to use with other scripts
+Creates receipts with a topic and value pair
+To run script
+python gen-receipts.py
+'''
 
 # Get environment variable FILE_COUNT value or use 100
 count = os.getenv("FILE_COUNT") or 100
