@@ -9,6 +9,51 @@ Some useful and not so useful BASH and Python shell scripts.
 
 ### Run the script
 `./scriptname`
+`python pythonscript`
+
+## Scripts
+7
+age
+args2
+args
+bmi2
+bmi
+cmd2
+cmd3
+cmd
+contains2
+contains
+default-env
+dictionaries
+exercise1
+factorial
+file
+files
+file_size
+flist
+function
+generator
+hello
+hex
+hfunction
+main
+mydetails
+myrange
+notes.txt
+pair
+pexit
+pgbackup
+ptest
+receipts
+reverse-file
+testcases
+testk.txt
+testm.txt
+test_phonebook
+test.txt
+timer
+weather
+word_count
 
 
 ## API Reference
