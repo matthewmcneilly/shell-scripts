@@ -1,0 +1,34 @@
+git
+chromium-browser
+filezilla
+firefox 
+htop 
+kubectl 
+keepassx
+slack 
+simple-scan
+simplescreenrecorder
+spotify-client
+virtualbox
+vlc
+icaclient #Citrix 
+gimp 
+ffmpeg 
+handbrake 
+inkscape 
+meld 
+redshift 
+teamviewer 
+timeshift 
+vim 
+code # Visual Studio Code 
+yakuake
+
+
+
+atom - needs deb or rpm pulled down 
+intellij - needs tarball pulled down 
+forticlient - needs pulled down 
+pycharm - needs pulled down 
+terminator # ok on debian but needs pulled on redhat 
+
