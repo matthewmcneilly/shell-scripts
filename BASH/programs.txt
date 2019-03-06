@@ -31,4 +31,4 @@ intellij - needs tarball pulled down
 forticlient - needs pulled down 
 pycharm - needs pulled down 
 terminator # ok on debian but needs pulled on redhat 
-
+tagspaces - needs pulled 
